@@ -1,43 +1,37 @@
-#hero{
-margin-top: 5vh;
+* {
+font-family: avenir;
 }
 
+
+#hero{
+padding: 5% 12%;
+}
+
+
 h1{
-    font-family: Helvetica;
-    font-size: 80px;
+    font-family: Futura;
+    font-size: 64px;
     font-weight:bold;
     
 }
 
-p{
-    font-family: Helvetica;
-    font-size: 16px;
-    font-weight:medium;
-}
-
-#hp{
-    margin: 5%;
-    padding-right:8%;
-
-}
-
 
 #btn{
-    margin:5%;
-    width: 250px;
-    height: 60px;
+    
+    width: 200px;
+    height: 55px;
     font-size: 18px;
     font-weight: bold;
 }
 
 .btn-primary{
-    background-color: #FA7065;
-    border-color: #FA7065;
+    background-color: #FCBE2B;
+    border-color: #FCBE2B;
 }
 
 .btn-primary:hover{
-    background-color: #FFD3D0;
-    border-color: #FFD3D0;
+    background-color: #E6AC27;
+    border-color: #E6AC27;
 }
 
 .btn-secondary{
@@ -52,50 +46,42 @@ p{
 
 
 #socialmedia{
-    margin:5%;
+    margin:auto;
 }
 
 
 h2{
-    font-size: 62px;
-    font-family: Helvetica;
-    font-weight: medium;
-    margin-left: 5%;
+    font-size: 48px;
+    font-family: futura;
+    font-weight: bold;
 }
 
 h3{
-    font-size: 56px;
-    font-family: Helvetica;
+    font-size: 32px;
+    font-family: futura;
     font-weight: bold;
-    margin-left: 5%;
 }
 
 h4{
-    font-size: 32px;
-    font-family: Helvetica;
+    font-size:24px;
+    font-family: futura;
     font-weight: bold;
     margin-left: 7.8vw; 
 }
 
 h5{
-    font-size: 24px;
-    font-family: Helvetica;
+    font-size: 18px;
+    font-family: futura;
     font-weight: bold;
      
 }
 
-h6{
-    font-size: 18px;
-    font-family: Helvetica;
-    font-weight: bold;
-     
-}
 
 
 
 
 .nav-pills a{
-    display: inline-block;
+display: inline-block;
   color: #1F2260;
   text-align: center;
   text-decoration: none;
@@ -118,12 +104,6 @@ h6{
     margin-top: -2%;
 }
 
-
-#workp{
-    margin-left: 7.8vw;
-   
-
-}
 
 
 
