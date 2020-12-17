@@ -9,7 +9,7 @@ padding: 5% 12%;
 
 
 h1{
-    font-family: Futura;
+    font-family: futura-pt;
     font-size: 64px;
     font-weight:bold;
     
@@ -52,26 +52,26 @@ h1{
 
 h2{
     font-size: 48px;
-    font-family: futura;
+    font-family: futura-pt;
     font-weight: bold;
 }
 
 h3{
     font-size: 32px;
-    font-family: futura;
+    font-family: futura-pt;
     font-weight: bold;
 }
 
 h4{
     font-size:24px;
-    font-family: futura;
+    font-family: futura-pt;
     font-weight: bold;
     margin-left: 7.8vw; 
 }
 
 h5{
     font-size: 18px;
-    font-family: futura;
+    font-family: futura-pt;
     font-weight: bold;
      
 }
