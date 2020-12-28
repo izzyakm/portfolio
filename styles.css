@@ -2,9 +2,8 @@
 font-family: lato;
 }
 
-
-#hero{
-padding: 5% 12%;
+.navbar li{
+    padding-right: 1rem;
 }
 
 
@@ -52,30 +51,33 @@ h1{
 
 
 h2{
-    font-size: 48px;
+    font-size: 56px;
     font-family: futura-pt;
     font-weight: bold;
 }
 
 h3{
-    font-size: 32px;
+    font-size: 48px;
     font-family: futura-pt;
     font-weight: bold;
 }
 
 h4{
-    font-size:24px;
+    font-size: 40px;
     font-family: futura-pt;
     font-weight: bold;
 }
 
 h5{
-    font-size: 18px;
+    font-size: 32px;
     font-family: futura-pt;
     font-weight: bold;
      
 }
 
+p{
+    font-size: 24px;
+}
 
 
 
@@ -115,4 +117,42 @@ display: inline-block;
     display: inline-block;
   }
 
+@media screen and (min-width: 992px) {
+  .profiterra-img {
+    border-radius: 15px;
+  }
+  #hero{
+    padding: 5% 12%;
+    }
+    .spaceTopBottom{
+        padding:6vh 0;
+    }
+    .spaceAllSides{
+        padding:12vh 8vw;
+    }
+}
 
+@media screen and (max-width: 992px) {
+    .profiterra-img {
+        border-radius: 15px 15px 0 0;
+      }
+    .align-text-center {
+      text-align: center;
+    }
+    #hero{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        }
+    .cert img{
+        margin-top: 5%;
+    }
+    .spaceTopBottom{
+        padding:2vh 0;
+    }
+    .spaceAllSides{
+        padding: 4vh 2vw;
+    }
+    .spaceTopOnMobile{
+        padding-top: 2vh;
+    }
+  }
