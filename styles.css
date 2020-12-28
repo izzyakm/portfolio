@@ -130,6 +130,9 @@ display: inline-block;
     .spaceAllSides{
         padding:12vh 8vw;
     }
+    .spaceLeftRight{
+        padding: 0 4vw;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -147,6 +150,9 @@ display: inline-block;
         margin-top: 5%;
     }
     .spaceTopBottom{
+        padding:2vh 0;
+    }
+    .spaceTopBottomMobileOnly{
         padding:2vh 0;
     }
     .spaceAllSides{
