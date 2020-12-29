@@ -6,6 +6,10 @@ font-family: lato;
     padding-right: 1rem;
 }
 
+.nav-item a{
+    font-size: 24px;
+}
+
 
 h1{
     font-family: futura-pt;
@@ -79,6 +83,12 @@ p{
     font-size: 24px;
 }
 
+
+.percent{
+    font-size: 62px;
+    font-family: futura-pt;
+    font-weight: bold;
+}
 
 
 
