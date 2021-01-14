@@ -164,7 +164,9 @@ p {
     }
 
     .cert img {
-        margin-top: 5%;
+       
+        display: block;
+        margin: 5% auto;
     }
 
     .spaceTopBottom {
